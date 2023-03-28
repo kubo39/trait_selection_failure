@@ -19,7 +19,7 @@ error: could not compile `app` due to previous error
 ok, look more deeply..
 
 ```console
-~/dev/rust/trait_selection_failure/app$ RUSTC_LOG="rustc_trait_selection" RUSTFLAGS="-Z verbose" cargo +nightly check
+~/dev/rust/trait_selection_failure/app$ RUSTC_LOG=rustc_trait_selection cargo +nightly check
 (...)
 INFO rustc_trait_selection::traits::error_reporting::on_unimplemented evaluate(OnUnimplementedDirective { 
 condition: None, subcommands: [OnUnimplementedDirective { condition: Some(MetaItem { path: Path { span: /rustc/
